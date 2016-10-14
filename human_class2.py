@@ -21,16 +21,21 @@ class Human():
     def getGender(self):
         return self._gender
 
+    def speak(self):
+        print(self._name,"says 'Hello'")
+
 # fred
 fred = Human('Male')
-fred.setname(
-print(fred.getGender())
+fred.setName('Fred')
+fred.speak()
+print(fred.getName())
 # & wilma
 wilma = Human('female')
-print(wilma.getGender())
+wilma.setName('Wilma')
+print(wilma.getName())
 
-# add another attribute called _name
-# create some code to add a name to an instance of the class
+# add another attribute called _name /
+# create some code to add a name to an instance of the class /
 
 # add another method to the Human class called
 # speak() - which returns _name + ": says 'Hello'"
